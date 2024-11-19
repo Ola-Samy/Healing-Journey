@@ -9,7 +9,7 @@ function Banner() {
     <div id="header-carousel" className="carousel slide carousel-fade" data-bs-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img className="w-100" src="img/home1.jpg" alt="Image" height="700px" />
+          <img className="w-100" src="./img/home1.jpg" alt="Image" height="700px" />
           <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
             <div className="p-3" style={{maxWidth: 900}}>
               <h5 className="text-white text-uppercase mb-3 animated slideInDown">Get ready for a new life,</h5>
@@ -20,7 +20,7 @@ function Banner() {
           </div>
         </div>
         <div className="carousel-item">
-          <img className="w-100" src="img/home 2.jpg" alt="Image" height="700px" />
+          <img className="w-100" src="./img/home 2.jpg" alt="Image" height="700px" />
           <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
             <div className="p-3" style={{maxWidth: 900}}>
               <h5 className="text-white text-uppercase mb-3 animated slideInDown">You are not alone,</h5>
@@ -31,7 +31,7 @@ function Banner() {
           </div>
         </div>
         <div className="carousel-item">
-          <img className="w-100" src="img/home4.jpg" alt="Image" height="700px" />
+          <img className="w-100" src="./img/home4.jpg" alt="Image" height="700px" />
           <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
             <div className="p-3" style={{maxWidth: 900}}>
               <h5 className="text-white text-uppercase mb-3 animated slideInDown">Start your journey</h5>
@@ -42,7 +42,7 @@ function Banner() {
           </div>
         </div>
         <div className="carousel-item">
-          <img className="w-100" src="img/home3.jpg" alt="Image" height="700px" />
+          <img className="w-100" src="./img/home3.jpg" alt="Image" height="700px" />
           <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
             <div className="p-3" style={{maxWidth: 900}}>
               <h5 className="text-white text-uppercase mb-3 animated slideInDown">Life is worth living,</h5>
