@@ -32,7 +32,7 @@ function Doctor() {
       <div className="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
         <div className="team-item">
           <div className="position-relative rounded-top" style={{zIndex: 1}}>
-            <img className="img-fluid rounded-top w-100" src="img/doctor-6.jpg" alt />
+            <img className="img-fluid rounded-top w-100" src="public/img/doctor-6.jpg" alt />
             <div className="position-absolute top-100 start-50 translate-middle bg-light rounded p-2 d-flex">
               <Link className="btn btn-primary btn-square m-1" to="#"><i className="fab fa-twitter fw-normal" /></Link>
               <Link className="btn btn-primary btn-square m-1" to="#"><i className="fab fa-facebook-f fw-normal" /></Link>
