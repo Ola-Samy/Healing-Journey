@@ -4,19 +4,6 @@ import { Link } from 'react-router-dom'
 function Banner() {
   return (
     <>
-  {/* Full Screen Search Start */}
-  <div className="modal fade" id="searchModal" tabIndex={-1}>
-    <div className="modal-dialog modal-fullscreen">
-      <div className="modal-content" style={{background: 'rgba(9, 30, 62, .7)'}}>
-        <div className="modal-header border-0">
-          <button type="button" className="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close" />
-        </div>
-        <div className="modal-body d-flex align-items-center justify-content-center">
-        </div>
-      </div>
-    </div>
-  </div>
-  {/* Full Screen Search End */}
   {/* Carousel Start */}
   <div className="container-fluid p-0">
     <div id="header-carousel" className="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -102,9 +89,6 @@ function Banner() {
         <div className="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
           <div className="bg-dark d-flex flex-column p-5" style={{height: 300}}>
             <h3 className="text-white mb-3">Search A Doctor</h3>
-            <div className="date mb-3" id="date" data-target-input="nearest">
-              <input type="text" className="form-control bg-light border-0 datetimepicker-input" placeholder="Appointment Date" data-target="#date" data-toggle="datetimepicker" style={{height: 40}} />
-            </div>
             <select className="form-select bg-light border-0 mb-3" style={{height: 40}}>
               <option selected>Select A Service</option>
               <option value={1}>Residential Treatment</option>

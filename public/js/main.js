@@ -105,10 +105,10 @@ function scrollTotop() {
                 behavior:'smooth'
             });
 }
-const form = document.getElementById('appointment');
-form.addEventListener('submit',function(event){
-    event.preventDefault();
-    const date = document.getElementById('date').ariaValueMax;
-    const time = document.getElementById('time').ariaValueMax;
-})
+// const form = document.getElementById('appointment');
+// form.addEventListener('submit',function(event){
+//     event.preventDefault();
+//     const date = document.getElementById('date').ariaValueMax;
+//     const time = document.getElementById('time').ariaValueMax;
+// })
 
